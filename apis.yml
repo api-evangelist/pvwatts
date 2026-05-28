@@ -1,0 +1,32 @@
+aid: pvwatts
+name: PVWatts
+description: "Energy production photovoltaic (PV) energy systems"
+url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Environment"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Environment
+  - Public APIs
+apis:
+  - name: PVWatts
+    description: "Energy production photovoltaic (PV) energy systems"
+    humanURL: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+    baseURL: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+    tags:
+      - Environment
+    properties:
+      - type: Documentation
+        url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+common:
+  - type: Website
+    url: https://developer.nrel.gov/docs/solar/pvwatts/v6/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
